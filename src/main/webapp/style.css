@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body
+{
+	margin-top:10%;
+	margin-left:30%;
+	background-color:#678dac;
+}
+input,button
+{
+    width: 48%;
+    margin: 5px 0;
+    padding: 10px;
+}
+button{
+    background-color: lightblue;
+    margin-left:10px;
+}
+a
+{
+	text-decoration: none;
+	color:#f5fbf5;
+	margin-left:30px;
+}
+p{
+ margin-left:20%;
+ color:#f5fbf5;
+ }
+.g-signin2
+     {
+     	margin-left:15%;
+     }
+#register
+{
+	margin-left:11px;
+	margin-right:10%;
+}
+@media (max-width:500px)
+{
+	body
+	{
+		margin-left:5%;
+	}
+	button,input
+	{
+		width:90%;
+	}
+	p
+	{
+		margin-left:40%;
+	}
+	.g-signin2
+     {
+     	margin-left:30%;
+     }
+      #register
+    {
+	    margin-right:1%;
+    }
+}
